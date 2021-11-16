@@ -1,9 +1,9 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.1.0'
+gem 'rails', '~> 5.2.4', '>= 5.2.4.3'
 gem 'pusher'
 gem 'em-http-request' # Required by trigger_async
-gem 'gravatar-ultimate'
+gem 'gravatar-ultimate', '>= 1.0.2'
 
 # Gems used only for assets and not required
 # in production environments by default.
