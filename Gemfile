@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '~> 3.1.0'
+gem 'rails', '~> 5.2.6', '>= 5.2.6.2'
 gem 'pusher'
 gem 'em-http-request' # Required by trigger_async
 gem 'gravatar-ultimate'
